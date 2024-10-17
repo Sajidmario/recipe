@@ -1,0 +1,34 @@
+Disclaimer and Contribution Guidelines
+
+Thank you for your interest in contributing to this project! Please read and follow these guidelines to ensure smooth collaboration and maintain the integrity of the repository.
+
+1. No Direct Commits Without Output Verification
+
+    Before committing any changes, you must verify the output of your modifications. This ensures that the project remains stable and functional.
+    Once you have tested your changes and confirmed they work as expected, submit your changes for review. Any unverified or unreviewed commits may be rejected.
+
+2. Do Not Alter Original Files
+
+    The original files in this repository must remain unchanged. This is essential to maintain the project's core functionality and integrity.
+    If you need to implement changes or new features, do not directly modify the original files. Instead, follow the process outlined below for making changes.
+
+3. Clone the Project and Make Changes
+
+    If you wish to contribute, clone this repository to your local environment.
+    Make your changes in a separate branch or your cloned version. Once you are satisfied with your modifications, you can submit a pull request for review.
+    Clearly document all changes in your pull request and explain how your modifications improve the project or solve a problem.
+
+4. License
+
+    This project is licensed under [insert license type]. By contributing, you agree to adhere to the terms of this license.
+
+5. Code of Conduct
+
+    We expect all contributors to maintain respectful and professional communication at all times.
+    Abusive, inappropriate, or non-constructive behavior will not be tolerated, and violators may be removed from the project.
+
+6. Issue Reporting
+
+    If you encounter any bugs or issues, please open an issue using the repository's issue tracker. Be sure to provide detailed information to help resolve the issue efficiently.
+
+By following these guidelines, you help maintain the quality of this project and ensure a positive collaboration experience for everyone. Thank you!
