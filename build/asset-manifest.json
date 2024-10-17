@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.95e0bb0b.css",
+    "main.js": "/static/js/main.fa37a6c1.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/first.jpg": "/static/media/first.6392c287ef17e62df2dc.jpg",
+    "static/media/yogurt.jpg": "/static/media/yogurt.0f145f617d9390120f2c.jpg",
+    "static/media/second.jpg": "/static/media/second.b2a50e1ba540639792a9.jpg",
+    "static/media/recipe-logo.png": "/static/media/recipe-logo.c42e3ef1b58d08555f02.png",
+    "index.html": "/index.html",
+    "main.95e0bb0b.css.map": "/static/css/main.95e0bb0b.css.map",
+    "main.fa37a6c1.js.map": "/static/js/main.fa37a6c1.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95e0bb0b.css",
+    "static/js/main.fa37a6c1.js"
+  ]
+}
