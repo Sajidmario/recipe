@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #033043;
+  padding: 20px 20px;
+}
+
+.logo {
+  color: #ff6f46;
+  font-size: 24px;
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  white-space: nowrap;
+}
+.recipe_logo {
+  height: 78px;
+  width: 200px;
+  position: relative;
+  bottom: 25px; 
+}
+
+.recipe_video_logo{
+  width: 103px;
+  height: 57px;
+  position: relative;
+  bottom: 13px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  position: relative;
+  right: -20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  /* text-decoration: underline; */
+  color: yellow;
+  transition: 0.5s;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 80px;
+}
+
+.search input {
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  width: 295px;
+  height: 35px;
+}
+
+.search button {
+  /* margin-left: 5px;
+  padding: 5px 10px; */
+  
+  /* color: #ffffff;
+  border: none;
+  border-radius: 67%;
+  cursor: pointer;
+  height: 33px;
+  width: 36px;
+  position: relative;
+  right: 40px; */
+  padding: 0px;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  left: 252px;
+
+}
+
+/* .search-container button:hover {
+  background-color: #ffffff;
+} */
+
+.sign-in{
+  position: relative;
+  left: 20px;
+}
+
+.sign-in button{
+  width: 90px;
+  height: 37px;
+  border-radius: 15px;
+  position: absolute;
+  right: 40px;
+    transition: opacity 0.30s,
+        background-color 0.30s,
+        color 0.30s;
+}
+
+.sign-in button:hover
+{
+    background-color: rgb(37, 37, 60);
+    color: white;
+}
+
+.sign-in button:active
+{
+    opacity: 0.7;
+}
+
+
+.register{
+  position: relative;
+  right: 170px;
+}
+
+.register button{
+  width: 90px;
+  height: 37px;
+  border-radius: 15px;
+  position: absolute;
+}

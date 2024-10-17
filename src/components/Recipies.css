@@ -1,0 +1,13 @@
+.Second-search-button{
+  width: 43px;
+  height: 42px;
+  padding: 5px;
+  margin: 30px 0px 20px 0px;
+  border-radius: 25px;
+  position: relative;
+  top: 22px;
+  right: 48px;
+}
+.Second-search{
+  margin-top: -10px;
+}

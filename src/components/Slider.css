@@ -1,0 +1,49 @@
+/* Slider.css */
+
+.container {
+    max-width: 100%;  /* Set maximum width for the slider */
+    margin: 0 auto;    /* Center the slider on the page */
+    overflow: hidden;   /* Hide overflowing slides */
+    position: relative; /* For button positioning */
+}
+
+.slide_section {
+    position: relative;
+    width: 100%;       /* Full width of the container */
+}
+
+.slides {
+    width: 100%;       /* Full width of the slide section */
+}
+
+.slide {
+    min-width: 100%;   /* Each slide takes full width of the container */
+    transition: transform 1s ease; /* Smooth transition for slide movement */
+    object-fit: cover; /* Maintain aspect ratio and cover space */
+}
+
+button {
+    position: absolute; /* Position buttons over the slides */
+    top: 50%;           /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical position */
+    background-color: rgba(255, 255, 255, 0.7); /* Light background for buttons */
+    border: none;      /* Remove default button borders */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for buttons */
+    cursor: pointer;   /* Change cursor to pointer */
+    font-size: 16px;   /* Font size for button text */
+    z-index: 1;        /* Place buttons above slides */
+}
+
+.prev {
+    left: 10px;        /* Position the "Prev" button on the left */
+}
+
+.next {
+    right: 10px;       /* Position the "Next" button on the right */
+}
+
+button:disabled {
+    opacity: 0.5;      /* Reduce opacity for disabled buttons */
+    cursor: not-allowed; /* Change cursor for disabled buttons */
+}

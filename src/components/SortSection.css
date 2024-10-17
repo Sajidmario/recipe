@@ -1,0 +1,95 @@
+.recipe-app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.sort-by-section {
+  display: inline-block;
+  /* justify-content: center; */
+  margin-bottom: 20px;
+  position: relative;
+  right: 160px;
+  top: 40px;
+}
+
+.sort-by-section label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.sort-by-section select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid green;
+  border-radius: 20px;
+  width: 115px;
+}
+
+.recipe-title {
+  font-size: 30px;
+  margin: 20px 10px;
+  color: #4CAF50;
+  text-align: center;
+  position: relative;
+  bottom: 39px;
+  width: 141px;
+  left: 680px;
+}
+
+.recipes-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Updated to 4 columns */
+  gap: 20px; /* Space between boxes */
+}
+
+.recipe-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.recipe-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.recipe-card .time-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #4CAF50; /* Green for the time badge */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  .recipes-list {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .recipes-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .recipes-list {
+    grid-template-columns: 1fr; /* 1 column for mobile devices */
+  }
+}
