@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+// import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import myImage from '../image/recipe-logo.png';
 // import sampleVideo from '../video/logo2.mp4';
 
@@ -31,7 +31,7 @@ function Navbar() {
       <div className="search">
         <input type="text" placeholder="Search for recipes..." />
         <button style={{}}>
-      <FontAwesomeIcon icon={faSearch} />
+      {/* <FontAwesomeIcon icon={faSearch} /> */}
     </button>
 
       </div>
