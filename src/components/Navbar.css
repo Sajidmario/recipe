@@ -10,6 +10,8 @@ body {
 
 .navbar {
   display: flex;
+  width: 100%;
+
   justify-content: space-between;
   align-items: center;
   background-color: #033043;
@@ -17,16 +19,11 @@ body {
 }
 
 .logo {
-  color: #ff6f46;
-  font-size: 24px;
-  font-weight: bold;
-  width: 150px;
   height: 30px;
-  white-space: nowrap;
 }
 .recipe_logo {
-  height: 78px;
-  width: 200px;
+  height: 10vh;
+  width: 12vw;
   position: relative;
   bottom: 25px; 
 }
@@ -79,24 +76,14 @@ body {
 }
 
 .search button {
-  /* margin-left: 5px;
-  padding: 5px 10px; */
-  
-  /* color: #ffffff;
-  border: none;
-  border-radius: 67%;
-  cursor: pointer;
-  height: 33px;
-  width: 36px;
-  position: relative;
-  right: 40px; */
-  padding: 0px;
+  padding: 0;
   font-size: 25px;
   color: black;
   cursor: pointer;
   position: absolute;
-  left: 252px;
-
+  left: 16.6vw;
+  width: 2vw;
+  /* height: 5.8vh; */
 }
 
 /* .search-container button:hover {
@@ -109,14 +96,12 @@ body {
 }
 
 .sign-in button{
-  width: 90px;
-  height: 37px;
+  width: 6.5vw;
+  height: 5vh;
   border-radius: 15px;
   position: absolute;
   right: 40px;
-    transition: opacity 0.30s,
-        background-color 0.30s,
-        color 0.30s;
+  transition: opacity 0.30s, background-color 0.30s, color 0.30s;
 }
 
 .sign-in button:hover
@@ -137,8 +122,8 @@ body {
 }
 
 .register button{
-  width: 90px;
-  height: 37px;
+  width: 6.5vw;
+  height: 5vh;
   border-radius: 15px;
   position: absolute;
 }

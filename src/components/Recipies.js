@@ -19,16 +19,16 @@ const Recipies = () => {
 
 </div> */}
 
-<div className="Second_search">
+{/* <div className="Second_search"> */}
 
-        <input type="text" placeholder="Search for recipes by ingredients..." style={{width: '705px',height: '45px',padding: '5px',margin: '20px 0px 25px 45px',border: '2px solid #807a7a',position: 'relative',borderradius: '22px'}} />
+        <input type="text" placeholder="Search for recipes by ingredients..." style={{width: '50vw',height: '7vh',padding: '5px',margin: '20px 0px 25px 45px',border: '2px solid #807a7a',position: 'relative',borderradius: '22px'}} />
         <button className='Second-search-button' style={{ }}>
       <FontAwesomeIcon icon={faSearch} />
     </button>
 
     </div>
 
-</div>
+// </div>
 
     );
   };
