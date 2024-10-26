@@ -21,7 +21,7 @@ const Register = () => {
       alert("Passwords do not match");
     } else {
       try {
-        const response = await axios.post("http://localhost:3000/user/register", {
+        const response = await axios.post("http://localhost:5000/user/register", {
           name: formData.username,
           email: formData.email,
           password: formData.password
