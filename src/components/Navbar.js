@@ -45,7 +45,7 @@ function Navbar() {
 
       <div className="register">
         <button>
-        <Link to='/register'>Register</Link>
+        <Link to='/register' style={{ textDecoration: 'none', color: 'inherit' }}>Register</Link>
 
     </button>
     </div>
