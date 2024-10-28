@@ -108,6 +108,8 @@ body {
 {
     background-color: rgb(37, 37, 60);
     color: white;
+    transition: 0.3s;
+
 }
 
 .sign-in button:active
@@ -126,4 +128,16 @@ body {
   height: 5vh;
   border-radius: 15px;
   position: absolute;
+}
+
+.register button:hover
+{
+    background-color: rgb(37, 37, 60);
+    color: white;
+    transition: 0.3s;
+}
+
+.register button:active
+{
+    opacity: 0.7;
 }
