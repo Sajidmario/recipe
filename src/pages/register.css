@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    margin: 155px 255px;
+    max-width: 65%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.register-container{
+    display: grid;
+  justify-content: center;
+  /* border: 2px solid;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto; */
+  /* width: 100vw;
+  height: 100vh; */
+  /* display: flex;
+  justify-content: center; */
+  /* display: grid;
+  place-items: center; */
+  flex: 1 1;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 130px auto;
+
+}
+
+.register-side{
+    flex: 1; /* Adjust width as needed */
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+}

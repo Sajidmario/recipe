@@ -4,13 +4,13 @@ import './SortSection.css'; // Assuming you're using a CSS file
 // Sample recipe data
 const recipes = [
   { id: 1, name: 'Yogurt Parfait', time: 15, imageUrl: require('../image/yogurt.jpg') },
-  { id: 2, name: 'White Bean Basil Chicken Chili', time: 70, imageUrl: require('../image/yogurt.jpg') },
-  { id: 3, name: 'Veggie Wraps', time: 15, imageUrl: require('../image/yogurt.jpg') },
-  { id: 4, name: 'Veggie & Rice Stir-Fry', time: 65, imageUrl: require('../image/yogurt.jpg') },
-  { id: 5, name: 'Vegetable Lasagna', time: 70, imageUrl: require('../image/yogurt.jpg') },
-  { id: 6, name: 'Turkey Tacos', time: 45, imageUrl: require('../image/yogurt.jpg') },
-  { id: 6, name: 'Turkey Tacos', time: 45, imageUrl: require('../image/yogurt.jpg') },
-  { id: 6, name: 'Turkey Tacos', time: 45, imageUrl: require('../image/yogurt.jpg') },
+  { id: 2, name: 'Chicken Chili', time: 70, imageUrl: require('../image/chicken.jpg') },
+  { id: 3, name: 'yogurt', time: 15, imageUrl: require('../image/yogurt.jpg') },
+  { id: 4, name: 'Rice Stir-Fry', time: 65, imageUrl: require('../image/fried-rice.jpg') },
+  { id: 5, name: 'Lasagna', time: 70, imageUrl: require('../image/lasagna.jpg') },
+  { id: 6, name: 'Tacos', time: 45, imageUrl: require('../image/taco.jpg') },
+  { id: 7, name: 'Shawarma', time: 45, imageUrl: require('../image/shawarma.jpg') },
+  { id: 8, name: 'Turkey Tacos', time: 45, imageUrl: require('../image/cupcake.jpg') },
 ];
 
 // RecipeCard component

@@ -4,22 +4,12 @@ import {Link} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import myImage from '../image/recipe-logo.png';
-// import sampleVideo from '../video/logo2.mp4';
 
 function Navbar() {
   return (
     <nav className="navbar">
-
       <div className="logo">
-        
-      <img className='recipe_logo' src={myImage} alt="description" />
-      {/* Recipe Finder */}
-
-      {/* <video className='recipe_video_logo' autoPlay muted>
-        <source src={sampleVideo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video> */}
-
+        <img className="recipe_logo" src={myImage} alt="description" />
       </div>
 
       <ul className="nav-links">
@@ -31,25 +21,17 @@ function Navbar() {
 
       <div className="search">
         <input type="text" placeholder="Search for recipes..." />
-        <button style={{}}>
-       <FontAwesomeIcon icon={faSearch} />
-       </button>
-
+        <button>
+          <FontAwesomeIcon icon={faSearch} />
+        </button>
       </div>
 
-      <div className="sign-in">
-        <button>
-    Sign IN
-    </button>
+      <div className="auth-buttons">
+        <button className="sign-in">Sign IN</button>
+        <button className="register">
+          <Link to='/register' style={{ textDecoration: 'none', color: 'inherit' }}>Register</Link>
+        </button>
       </div>
-
-      <div className="register">
-        <button>
-        <Link to='/register' style={{ textDecoration: 'none', color: 'inherit' }}>Register</Link>
-
-    </button>
-    </div>
-
     </nav>
   );
 }

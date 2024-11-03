@@ -22,7 +22,7 @@ body {
   height: 30px;
 }
 .recipe_logo {
-  height: 10vh;
+  /* height: 10vh; */
   width: 12vw;
   position: relative;
   bottom: 25px; 
@@ -93,11 +93,12 @@ body {
 .sign-in{
   position: relative;
   left: 20px;
+  top: 20px;
 }
 
 .sign-in button{
   width: 6.5vw;
-  height: 5vh;
+  /* height: 5vh; */
   border-radius: 15px;
   position: absolute;
   right: 40px;
@@ -121,11 +122,12 @@ body {
 .register{
   position: relative;
   right: 170px;
+  top: 20px;
 }
 
 .register button{
   width: 6.5vw;
-  height: 5vh;
+  /* height: 5vh; */
   border-radius: 15px;
   position: absolute;
 }
