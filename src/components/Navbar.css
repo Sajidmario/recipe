@@ -143,3 +143,86 @@ body {
 {
     opacity: 0.7;
 }
+
+@media (max-width: 384px) {
+
+  .recipe_logo {
+    width: 22%;
+    position: relative;
+    bottom: 40%;
+    left: -8%;
+  }
+  .search{
+    margin-right: 183px;
+  margin-top: 30px;
+  }
+  .search button{
+    padding: 0;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  left: 169%;
+  background-color: white;
+  }
+
+  .search input {
+    padding: 11px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 295px;
+    height: 20%;
+    position: relative;
+    left: 81%;
+  }
+
+  .navbar{
+    display: grid;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+  background-color: #033043;
+  padding: 20px 20px;
+  }
+
+  .register{
+    position: relative;
+    left: 184px;
+    top: -311px;
+    width: 67px;
+    transform: translateY(-50%);
+    background-color: rgba(255, 131, 131, 0.7);
+    border: none;
+    border-radius: 20px;
+    padding: 6px 8px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 1;
+  }
+  .sign-in{
+    position: relative;
+    left: 180px;
+    top: -311px;
+    width: 66px;
+    transform: translateY(-50%);
+    background-color: rgba(255, 131, 131, 0.7);
+    border: none;
+    border-radius: 20px;
+    padding: 6px 8px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 1;
+  }
+
+  .nav-links{
+    display: grid;
+  gap: 40px;
+  position: relative;
+  right: -20px;
+  margin-right: 35%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  }
+
+}
