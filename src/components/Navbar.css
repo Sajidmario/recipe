@@ -144,7 +144,7 @@ body {
     opacity: 0.7;
 }
 
-@media (max-width: 384px) {
+@media (width <= 390px) {
 
   .recipe_logo {
     width: 22%;
